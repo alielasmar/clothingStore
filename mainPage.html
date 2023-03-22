@@ -6,13 +6,14 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to our Online Clothing Store</h1>
+      <h1>SL33P's Store</h1>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Men's Clothing</a></li>
           <li><a href="#">Women's Clothing</a></li>
           <li><a href="#">Kids' Clothing</a></li>
+          <li><a href="#">Shoes</a></li>
           <li><a href="#">Sale</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -44,9 +45,103 @@
           <li><a href="#"><img src="kids-product-3.jpg" alt="Kids' Product 3"></a></li>
         </ul>
       </section>
+      <section>
+        <h3>Shoes</h3>
+        <ul>
+          <li><a href="#"><img src="shoe-1.jpg" alt="Shoe 1"></a></li>
+          <li><a href="#"><img src="shoe-2.jpg" alt="Shoe 2"></a></li>
+          <li><a href="#"><img src="shoe-3.jpg" alt="Shoe 3"></a></li>
+        </ul>
+      </section>
     </main>
     <footer>
       <p>&copy; 2023 Online Clothing Store. All rights reserved.</p>
     </footer>
   </body>
 </html>
+
+<style> 
+  /* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+section {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+section h3 {
+  margin-top: 0;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    flex-basis: 100%;
+  }
+}
+</style>
