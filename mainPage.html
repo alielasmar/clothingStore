@@ -1,98 +1,100 @@
 <!DOCTYPE html>
-
-<style> 
-  /* Global styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px;
-}
-
-h2 {
-  margin-bottom: 20px;
-}
-section {
-  flex-basis: 25%;
-  padding: 10px;
-}
-
-section h3 {
-  margin-top: 0;
-}
-
-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-section li {
-  margin-bottom: 10px;
-}
-
-section img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer {
-  background-color: #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  main {
-    flex-direction: column;
-  }
-
-  section {
-    flex-basis: 100%;
-  }
-}
-</style>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Online Clothing Store</title>
+    <title>SL33P's Store</title>
+    <style> 
+      /* Global styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      section {
+        flex-basis: 25%;
+        padding: 10px;
+      }
+
+      section h3 {
+        margin-top: 0;
+      }
+
+      section ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      section li {
+        margin-bottom: 10px;
+      }
+
+      section img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        max-height: 100px; /* set a maximum height for all images */
+      }
+
+      footer {
+        background-color: #eee;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Responsive styles */
+      @media screen and (max-width: 768px) {
+        main {
+          flex-direction: column;
+        }
+
+        section {
+          flex-basis: 100%;
+        }
+      }
+    </style>
+
   </head>
   <body>
     <header>
@@ -106,19 +108,18 @@ footer {
           <li><a href="#">Shoes</a></li>
           <li><a href="#">Sale</a></li>
           <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Custom Orders</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <h2>Featured Products</h2>
       
-      <ul>
-        <li><a href="#"><img src="featured-product-1.jpg" alt="Featured Product 1"></a></li>
+      <ul style="list-style: none;">
+        <li><a href="#"><img src="TestImg1.png" alt="Featured Product 1"></a></li>
         <li><a href="#"><img src="featured-product-2.jpg" alt="Featured Product 2"></a></li>
         <li><a href="#"><img src="featured-product-3.jpg" alt="Featured Product 3"></a></li>
-      </ul>
-
-      <br>
+      </ul>  
       
       <section>
         <h3>Men's Clothing</h3>
@@ -126,40 +127,41 @@ footer {
           <li><a href="#"><img src="men-product-1.jpg" alt="Men's Product 1"></a></li>
           <li><a href="#"><img src="men-product-2.jpg" alt="Men's Product 2"></a></li>
           <li><a href="#"><img src="men-product-3.jpg" alt="Men's Product 3"></a></li>
-        </ul>
-      </section>
-<br>
-      <section>
-        <h3>Women's Clothing</h3>
-        <ul>
+          </ul>
+          </section>
+          
+          <section>
+          <h3>Women's Clothing</h3>
+          <ul>
           <li><a href="#"><img src="women-product-1.jpg" alt="Women's Product 1"></a></li>
           <li><a href="#"><img src="women-product-2.jpg" alt="Women's Product 2"></a></li>
           <li><a href="#"><img src="women-product-3.jpg" alt="Women's Product 3"></a></li>
-        </ul>
-      </section>
-      <br>
-      <section>
-        <h3>Kids' Clothing</h3>
-        <ul>
+          </ul>
+          </section>
+          
+          <section>
+          <h3>Kids' Clothing</h3>
+          <ul>
           <li><a href="#"><img src="kids-product-1.jpg" alt="Kids' Product 1"></a></li>
           <li><a href="#"><img src="kids-product-2.jpg" alt="Kids' Product 2"></a></li>
           <li><a href="#"><img src="kids-product-3.jpg" alt="Kids' Product 3"></a></li>
-        </ul>
-      </section>
-      <br>
-      <section>
-        <h3>Shoes</h3>
-        <ul>
+          </ul>
+          </section>
+          
+          <section>
+          <h3>Shoes</h3>
+          <ul>
           <li><a href="#"><img src="shoe-1.jpg" alt="Shoe 1"></a></li>
           <li><a href="#"><img src="shoe-2.jpg" alt="Shoe 2"></a></li>
           <li><a href="#"><img src="shoe-3.jpg" alt="Shoe 3"></a></li>
-        </ul>
-      </section>
-
-    </main>
-    <footer>
-      <p>&copy; 2023 Online Clothing Store. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
-
+          </ul>
+          </section>
+          
+          css
+          Copy code
+          </main>
+          <footer>
+            <p>&copy; 2023 SL33P Clothing Store. All rights reserved.</p>
+          </footer>
+            </body>
+          </html>
